@@ -4,7 +4,7 @@ stages:
   - gen_fab
 
 tests:
-  image: ghcr.io/inti-cmnb/kicad7_auto:1.6.5
+  image: ghcr.io/inti-cmnb/kicad8_auto:1.6.4
   stage: testing
   script:
     - "[ -f *.kicad_pcb ] && kibot -c test.kibot.yaml"
@@ -21,7 +21,7 @@ versioning:
       - VERSION.txt
 
 pcb_outputs:
-  image: ghcr.io/inti-cmnb/kicad7_auto:1.6.5
+  image: ghcr.io/inti-cmnb/kicad8_auto:1.6.4
   stage: gen_fab
   script:
     - "[ -f *.kicad_pcb ] && kibot -c output.kibot.yaml"
