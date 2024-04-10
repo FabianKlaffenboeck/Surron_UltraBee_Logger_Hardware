@@ -8160,6 +8160,10 @@
 		(uuid "f2523eeb-320c-4a16-9ade-1d37f18cc123")
 	)
 	(no_connect
+		(at 60.96 50.8)
+		(uuid "05b81467-7230-4aad-85eb-2a9d34e6bbf2")
+	)
+	(no_connect
 		(at 111.76 88.9)
 		(uuid "0c39ae9a-b391-43b8-8e76-31af5307ad21")
 	)

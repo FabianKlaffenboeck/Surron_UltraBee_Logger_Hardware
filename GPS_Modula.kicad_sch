@@ -2289,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 54.61) (xy 81.28 54.61)
+			(xy 68.58 54.61) (xy 77.47 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 54.61) (xy 81.28 52.07)
+			(xy 77.47 54.61) (xy 77.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2687,7 @@
 		)
 	)
 	(global_label "Gps_V_Back"
-		(shape input)
+		(shape output)
 		(at 46.99 31.75 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3494,7 +3494,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 81.28 46.99 0)
+		(at 77.47 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3503,7 +3503,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5f66702-e568-4813-bc95-8852d3609f27")
 		(property "Reference" "AE1"
-			(at 83.82 46.3549 0)
+			(at 80.01 46.3549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3512,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 83.82 48.8949 0)
+			(at 80.01 48.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 46.99 0)
+			(at 77.47 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 46.99 0)
+			(at 77.47 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3539,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 81.28 46.99 0)
+			(at 77.47 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
