@@ -7807,6 +7807,44 @@
 		)
 	)
 	(sheet
+		(at 78.74 133.35)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c492cacd-43ec-495b-a702-bd27a141b577")
+		(property "Sheetname" "PowerSupply_Module"
+			(at 78.74 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply_Module.kicad_sch"
+			(at 78.74 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware"
+				(path "/f04ee758-a926-48b7-b458-286a696c3ef4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 48.26 133.35)
 		(size 27.94 17.78)
 		(fields_autoplaced yes)

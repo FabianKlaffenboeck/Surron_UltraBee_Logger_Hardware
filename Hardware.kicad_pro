@@ -592,6 +592,10 @@
     [
       "3ee8d0fa-24f8-4e27-8de4-cc9f5f0f11cc",
       "CAN_Module"
+    ],
+    [
+      "c492cacd-43ec-495b-a702-bd27a141b577",
+      "PowerSupply_Module"
     ]
   ],
   "text_variables": {}
