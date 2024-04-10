@@ -82,7 +82,7 @@
 	(net 0 "")
 	(gr_rect
 		(start 35.5 50)
-		(end 66 74)
+		(end 115.5 90)
 		(stroke
 			(width 0.05)
 			(type default)
