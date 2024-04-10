@@ -576,6 +576,22 @@
     [
       "f04ee758-a926-48b7-b458-286a696c3ef4",
       "Root"
+    ],
+    [
+      "9702ddf2-9814-4139-b4ef-da102dfdd360",
+      "SD_Modula"
+    ],
+    [
+      "c5bd4e13-9ff3-4e37-b98a-43863969c907",
+      "LTE_Module"
+    ],
+    [
+      "645eb5eb-084e-44da-a26c-786606f44645",
+      "GPS_Module"
+    ],
+    [
+      "3ee8d0fa-24f8-4e27-8de4-cc9f5f0f11cc",
+      "CAN_Module"
     ]
   ],
   "text_variables": {}
