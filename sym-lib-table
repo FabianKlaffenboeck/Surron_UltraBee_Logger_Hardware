@@ -3,4 +3,5 @@
   (lib (name "PESD1CAN")(type "KiCad")(uri "${KIPRJMOD}/library/PESD1CAN.kicad_sym")(options "")(descr ""))
   (lib (name "SIM7080G")(type "KiCad")(uri "${KIPRJMOD}/library/SIM7080G.kicad_sym")(options "")(descr ""))
   (lib (name "MP2637AGR-P")(type "KiCad")(uri "${KIPRJMOD}/library/MP2637AGR-P.kicad_sym")(options "")(descr ""))
+  (lib (name "SIM7070G")(type "KiCad")(uri "${KIPRJMOD}/library/SIM7070G.kicad_sym")(options "")(descr ""))
 )
