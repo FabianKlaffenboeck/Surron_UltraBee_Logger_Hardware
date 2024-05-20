@@ -1,4 +1,8 @@
 (fp_lib_table
   (version 7)
-  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
+  (lib (name "A7670E")(type "KiCad")(uri "${KIPRJMOD}/footprints/A7670E")(options "")(descr ""))
+  (lib (name "EPCO_B82787C0513")(type "KiCad")(uri "${KIPRJMOD}/footprints/EPCO_B82787C0513")(options "")(descr ""))
+  (lib (name "IC_MP2637AGR-P")(type "KiCad")(uri "${KIPRJMOD}/footprints/IC_MP2637AGR-P")(options "")(descr ""))
+  (lib (name "SIM7070G")(type "KiCad")(uri "${KIPRJMOD}/footprints/SIM7070G")(options "")(descr ""))
+  (lib (name "XCVR_SIM7080G")(type "KiCad")(uri "${KIPRJMOD}/footprints/XCVR_SIM7080G")(options "")(descr ""))
 )
