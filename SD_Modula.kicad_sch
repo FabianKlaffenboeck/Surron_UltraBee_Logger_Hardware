@@ -1911,6 +1911,16 @@
 		)
 		(uuid "c33aca95-180f-4ada-84b4-f3973d2d98fd")
 	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 109.22 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79a3a94-1f6a-4b85-8a65-49621400468d")
+	)
 	(polyline
 		(pts
 			(xy 195.58 50.8) (xy 195.58 17.78)
@@ -1943,6 +1953,39 @@
 		)
 		(uuid "fcdc83b4-92ef-409e-b236-2f9f4eea35ce")
 	)
+	(label "PSU"
+		(at 184.15 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30d5dba6-5ff7-41b3-a034-f8bc07b1232d")
+	)
+	(label "PSU"
+		(at 29.21 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf1a9601-4179-4f6d-b92a-6d47b1ff2efc")
+	)
+	(label "PSU"
+		(at 109.22 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f34c3594-6539-4339-be91-a5cb21e8fe21")
+	)
 	(global_label "SCK_LLS"
 		(shape input)
 		(at 106.68 36.83 90)
@@ -1956,28 +1999,6 @@
 		(uuid "1650d468-baed-4234-84c7-c91097eb7f10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.68 25.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PSU_SD"
-		(shape input)
-		(at 29.21 74.93 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25de5e16-a1b0-475c-bdd9-cfef66e7fb70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 64.6877 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,28 +2206,6 @@
 			)
 		)
 	)
-	(global_label "PSU_SD"
-		(shape input)
-		(at 184.15 33.02 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "890bac32-48a7-47df-954b-64a10c30480f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 22.7777 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SD_CS"
 		(shape input)
 		(at 59.69 33.02 270)
@@ -2242,28 +2241,6 @@
 		(uuid "ce53a058-5f58-4790-ad40-6ed49ce5b7a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 88.438 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PSU_SD"
-		(shape input)
-		(at 109.22 36.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e6c91b29-1889-488b-9ebf-49db36a3f55a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 26.5877 90)
 			(effects
 				(font
 					(size 1.27 1.27)
