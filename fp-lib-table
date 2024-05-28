@@ -5,4 +5,5 @@
   (lib (name "IC_MP2637AGR-P")(type "KiCad")(uri "${KIPRJMOD}/footprints/IC_MP2637AGR-P")(options "")(descr ""))
   (lib (name "SIM7070G")(type "KiCad")(uri "${KIPRJMOD}/footprints/SIM7070G")(options "")(descr ""))
   (lib (name "XCVR_SIM7080G")(type "KiCad")(uri "${KIPRJMOD}/footprints/XCVR_SIM7080G")(options "")(descr ""))
+  (lib (name "3M_SD-RSMT-2-MQ-WF")(type "KiCad")(uri "${KIPRJMOD}/footprints/3M_SD-RSMT-2-MQ-WF")(options "")(descr ""))
 )

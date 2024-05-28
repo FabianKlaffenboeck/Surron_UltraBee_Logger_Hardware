@@ -4108,7 +4108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 87.63 43.18 0)
 			(effects
 				(font
@@ -4369,7 +4369,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1K"
 			(at 90.17 59.69 90)
 			(effects
 				(font
@@ -4377,7 +4377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.17 64.008 90)
 			(effects
 				(font
@@ -4803,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 33.528 90)
 			(effects
 				(font
@@ -5145,7 +5145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Seiko_MS621F"
 			(at 219.71 36.576 90)
 			(effects
 				(font
@@ -5215,7 +5215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.852 35.56 90)
 			(effects
 				(font
