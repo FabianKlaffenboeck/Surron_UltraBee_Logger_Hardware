@@ -2270,6 +2270,28 @@
 		)
 		(uuid "dbcb8779-9119-4d2a-868b-541b510b0629")
 	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 144.78 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "280253ed-e65e-419e-ac6f-a0bb36b81f72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.45 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_TX"
 		(shape input)
 		(at 30.48 35.56 180)
@@ -2292,28 +2314,6 @@
 			)
 		)
 	)
-	(global_label "Can_H"
-		(shape input)
-		(at 144.78 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "477910e4-f1e8-4044-b53a-4992e6f5a3b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6313 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_RX"
 		(shape input)
 		(at 30.48 38.1 180)
@@ -2332,6 +2332,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 144.78 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cc5cd5c-8438-412c-8dc8-e324177986a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.7524 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2376,28 +2398,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Can_L"
-		(shape input)
-		(at 144.78 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c99eb715-50ed-44ed-a673-b5193115070b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.3289 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2812,7 +2812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 95.25 41.91 0)
 			(effects
 				(font
@@ -3634,7 +3634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 66.04 46.99 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:EPCO B82787C0513"
+		(property "Footprint" "EPCO_B82787C0513:EPCO B82787C0513"
 			(at 104.14 25.4 0)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 95.25 48.26 0)
 			(effects
 				(font
@@ -5215,7 +5215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 66.04 53.34 0)
 			(effects
 				(font
