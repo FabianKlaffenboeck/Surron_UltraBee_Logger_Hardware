@@ -3763,6 +3763,16 @@
 		)
 		(uuid "9e1b884a-c72f-4788-82d2-e1b1defd60f3")
 	)
+	(wire
+		(pts
+			(xy 205.74 30.48) (xy 205.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e55f411-df6c-423d-838a-a44b505a393f")
+	)
 	(polyline
 		(pts
 			(xy 191.77 88.9) (xy 254 88.9)
@@ -5028,7 +5038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -7598,7 +7608,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 205.74 40.64 180)
+		(at 205.74 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7607,25 +7617,25 @@
 		(fields_autoplaced yes)
 		(uuid "6a87b1f6-8e2e-440d-b628-4146ab4513a9")
 		(property "Reference" "TP6"
-			(at 208.28 42.6719 0)
+			(at 208.28 25.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 208.28 45.2119 0)
+			(at 208.28 28.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 200.66 40.64 0)
+			(at 210.82 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 40.64 0)
+			(at 210.82 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7653,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7662,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7671,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +7680,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +7689,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +7698,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +7707,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7716,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7715,7 +7725,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7734,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7743,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7752,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7761,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +7770,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 205.74 40.64 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 193.04 102.87 0)
 			(effects
 				(font

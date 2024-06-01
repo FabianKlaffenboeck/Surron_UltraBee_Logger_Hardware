@@ -3093,6 +3093,16 @@
 		)
 		(uuid "59a49738-9a7f-4994-9c15-5dd010dc076b")
 	)
+	(wire
+		(pts
+			(xy 170.18 29.21) (xy 170.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a89aaa3-2bbc-4d26-a7cd-10604c59e9d7")
+	)
 	(polyline
 		(pts
 			(xy 16.51 85.09) (xy 127 85.09)
@@ -4600,7 +4610,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 170.18 39.37 180)
+		(at 170.18 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4609,25 +4619,25 @@
 		(fields_autoplaced yes)
 		(uuid "7213d1ad-8fa8-459e-86fa-0f2d2f246f92")
 		(property "Reference" "TP19"
-			(at 172.72 41.4019 0)
+			(at 172.72 24.6379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.72 43.9419 0)
+			(at 172.72 27.1779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 165.1 39.37 0)
+			(at 175.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 39.37 0)
+			(at 175.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4655,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +4664,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4673,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4682,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4691,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4700,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4709,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4718,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4727,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4736,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4745,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4754,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4763,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4772,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 170.18 39.37 0)
+			(at 170.18 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 232.41 31.75 0)
 			(effects
 				(font

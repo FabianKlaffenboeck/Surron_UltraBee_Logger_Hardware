@@ -1255,6 +1255,16 @@
 		)
 		(uuid "cd74a4e4-83c8-4245-b09f-5e50c0a77301")
 	)
+	(wire
+		(pts
+			(xy 173.99 30.48) (xy 173.99 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ce9686-3c9b-4289-b8b2-f0dce4564bf3")
+	)
 	(text "SD Reader"
 		(exclude_from_sim no)
 		(at 17.78 17.78 0)
@@ -2450,7 +2460,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 173.99 40.64 180)
+		(at 173.99 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2459,25 +2469,25 @@
 		(fields_autoplaced yes)
 		(uuid "b2dcd2d6-25f8-42e0-901c-d646f9af8008")
 		(property "Reference" "TP18"
-			(at 176.53 42.6719 0)
+			(at 176.53 25.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 176.53 45.2119 0)
+			(at 176.53 28.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 168.91 40.64 0)
+			(at 179.07 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 40.64 0)
+			(at 179.07 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2505,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2514,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2523,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2532,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2541,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2550,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2559,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2568,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2577,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +2586,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2595,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2604,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2613,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2622,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 173.99 40.64 0)
+			(at 173.99 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
