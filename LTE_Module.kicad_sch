@@ -3712,126 +3712,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3940,12 +3820,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "077c44ad-61c2-4c93-96a9-450e1cb1949c")
-	)
-	(junction
-		(at 72.39 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08afd5cc-3865-4c81-af41-1ba42493c8b6")
 	)
 	(junction
 		(at 49.53 132.08)
@@ -4569,16 +4443,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 82.55) (xy 233.68 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc8ccee-ae63-4e80-9dff-8b8c59a6d460")
-	)
-	(wire
-		(pts
 			(xy 49.53 132.08) (xy 59.69 132.08)
 		)
 		(stroke
@@ -5179,7 +5043,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 72.39 78.74)
+			(xy 68.58 78.74) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5509,17 +5373,6 @@
 			(justify right bottom)
 		)
 		(uuid "75a506c2-2cd1-4ad5-af2e-1e3b0f10a167")
-	)
-	(label "DATA_EN"
-		(at 205.74 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76496939-3146-468a-ba89-66303fa58887")
 	)
 	(label "1V8"
 		(at 97.79 97.79 0)
@@ -7067,7 +6920,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 72.39 78.74 180)
+		(at 71.12 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7075,7 +6928,7 @@
 		(dnp no)
 		(uuid "347d3b85-71e5-43c4-98f6-5875cdb23e1c")
 		(property "Reference" "TP11"
-			(at 75.946 84.328 0)
+			(at 85.09 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +6937,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 85.09 84.3281 0)
+			(at 75.946 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +6946,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 67.31 78.74 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +6955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 78.74 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +6964,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +6973,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +6982,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +6991,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +7000,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +7009,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,7 +7018,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +7027,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7036,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7045,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7054,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7063,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +7072,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,7 +7081,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 72.39 78.74 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,190 +7096,6 @@
 			(project "Hardware"
 				(path "/f04ee758-a926-48b7-b458-286a696c3ef4/c5bd4e13-9ff3-4e37-b98a-43863969c907"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 233.68 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39214f01-9179-4458-a9e1-fe5c3cc89adb")
-		(property "Reference" "TP17"
-			(at 236.22 77.9779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 236.22 80.5179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 233.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e93411d-e99c-4330-8bbe-34d059bbbef7")
-		)
-		(instances
-			(project "Hardware"
-				(path "/f04ee758-a926-48b7-b458-286a696c3ef4/c5bd4e13-9ff3-4e37-b98a-43863969c907"
-					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -8993,73 +8662,6 @@
 			(project "Hardware"
 				(path "/f04ee758-a926-48b7-b458-286a696c3ef4/c5bd4e13-9ff3-4e37-b98a-43863969c907"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67fd7998-0028-4679-8784-9702232d6387")
-		(property "Reference" "#PWR051"
-			(at 68.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 77.47 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32224660-3a29-4a6e-adcd-893a93200764")
-		)
-		(instances
-			(project "Hardware"
-				(path "/f04ee758-a926-48b7-b458-286a696c3ef4/c5bd4e13-9ff3-4e37-b98a-43863969c907"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
