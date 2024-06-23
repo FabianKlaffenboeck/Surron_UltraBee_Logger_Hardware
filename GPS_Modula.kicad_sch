@@ -3573,6 +3573,28 @@
 			)
 		)
 	)
+	(global_label "PSU_GPS"
+		(shape input)
+		(at 180.34 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "794598d6-52e6-46d9-afa1-36475af1dde0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.8523 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Gps_V_Back"
 		(shape output)
 		(at 66.04 31.75 90)
