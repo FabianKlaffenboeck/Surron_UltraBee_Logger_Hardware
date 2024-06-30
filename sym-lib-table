@@ -5,4 +5,5 @@
   (lib (name "MP2637AGR-P")(type "KiCad")(uri "${KIPRJMOD}/library/MP2637AGR-P.kicad_sym")(options "")(descr ""))
   (lib (name "SIM7070G")(type "KiCad")(uri "${KIPRJMOD}/library/SIM7070G.kicad_sym")(options "")(descr ""))
   (lib (name "a7670e")(type "KiCad")(uri "${KIPRJMOD}/library/a7670e.kicad_sym")(options "")(descr ""))
+  (lib (name "MP1584EN")(type "KiCad")(uri "${KIPRJMOD}/library/MP1584EN.kicad_sym")(options "")(descr ""))
 )

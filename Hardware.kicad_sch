@@ -3388,10 +3388,6 @@
 		(uuid "4819e309-605b-4597-96a7-dc8325e4bee8")
 	)
 	(no_connect
-		(at 59.69 63.5)
-		(uuid "4aad9b87-0b84-4e32-9055-9db97155fb6f")
-	)
-	(no_connect
 		(at 29.21 71.12)
 		(uuid "5532606c-04c8-4e24-b393-f8d02367d5d8")
 	)
@@ -4464,6 +4460,28 @@
 		(uuid "6ec61e9e-e554-4de6-a7d4-2936d17f8456")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 69.267 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR"
+		(shape input)
+		(at 59.69 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70f2bdc6-46ac-41fe-863b-85dab1150627")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.6666 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
