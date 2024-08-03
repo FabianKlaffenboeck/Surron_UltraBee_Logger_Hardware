@@ -3189,7 +3189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k13"
+		(property "Value" "8k"
 			(at 59.69 86.3599 0)
 			(effects
 				(font
@@ -4742,7 +4742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k18"
+		(property "Value" "8k"
 			(at 49.53 86.3599 0)
 			(effects
 				(font
