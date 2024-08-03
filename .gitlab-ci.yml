@@ -1,3 +1,3 @@
 include:
-  project: 'FabianKla/cicd_dry_templates'
+  project: 'FKLab/cicd_dry_templates'
   file: 'complete/kicad/KiCad_8_Build.yml'
